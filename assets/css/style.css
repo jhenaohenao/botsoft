@@ -71,6 +71,7 @@ TABLE OF CONTENTS:-
 /* --------------- variable --------------- */
 :root {
   --color-main:#0066ff;
+  --color-main-botsoft:#0070b7;
   --color-primary:#0066ff;
   --color-secondary:#02b5ff;
   --color-blue2: #4a00e1;
@@ -156,8 +157,11 @@ TABLE OF CONTENTS:-
 .color-blue4 {
   color: var(--color-blue4) !important; }
 
-.bg-blue4 {
+.bg-blue4-original {
   background-color: var(--color-blue4) !important; }
+.bg-blue4 {
+  background-color: var(--color-main-botsoft) !important;
+}
 
 .border-blue4 {
   border-color: var(--color-blue4) !important; }
